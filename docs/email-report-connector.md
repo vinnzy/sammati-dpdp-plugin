@@ -1,5 +1,7 @@
 # Email-report connector: backend spec
 
+> Superseded by `documentation/prd/claude-plugin-connector.md` in the Sammati repo (F99.52). Where they differ, that document is correct: the plugin sends answers, not scores, and the lead notice is sent only after the person confirms contact.
+
 The plugin's closing step offers to email the report as a PDF and, separately, to let Sammati contact the user. This needs a small remote MCP server, because a skill cannot send email or record consent by itself. The plugin side is written and waits on this branch. It does nothing until the two tools below exist.
 
 ## Tools
