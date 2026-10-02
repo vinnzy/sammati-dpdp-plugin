@@ -10,7 +10,9 @@ The deadlines worth knowing: the Consent Manager framework opens on 13 November 
 
 ## Data
 
-The assessment runs entirely inside your Claude conversation. This plugin does not send your answers or documents anywhere, and it stores nothing.
+The assessment runs inside your Claude conversation, and nothing is sent anywhere unless you choose to have the report emailed to you.
+
+If you do, Claude first shows you Sammati's privacy notice and asks for your agreement. It then sends your email address, your name and organisation if you give them, your scores, and your answers to Sammati (Arborworld India Private Limited) through the Sammati connector, so a PDF report can be emailed to you. A pasted privacy notice or other document is never sent. Separately, and only if you say yes, a Sammati specialist may contact you about closing your gaps. You can say no to that and still get the report, and you can withdraw your consent at any time by replying to the email.
 
 ## Not legal advice
 

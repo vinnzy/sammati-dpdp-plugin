@@ -1,7 +1,7 @@
 {
   "name": "sammati-dpdp",
   "displayName": "Sammati DPDP Readiness",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Check how ready your organisation is for India's DPDP Act. Answer a short assessment or paste your privacy notice, and get a score and a prioritised list of gaps.",
   "author": { "name": "Arborworld India Private Limited (Sammati)", "url": "https://sammati.io" },
   "homepage": "https://sammati.io/assessment",

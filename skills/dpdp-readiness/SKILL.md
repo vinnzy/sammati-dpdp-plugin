@@ -12,9 +12,21 @@ Run the Sammati DPDP readiness assessment and give the user a score, their top g
 3. If they paste a privacy notice, consent screen text, or a policy, read it and pre-fill every answer it clearly supports. Say which answers you filled from their text and which you could not tell. Never guess an answer the text does not support.
 4. Ask the remaining questions one at a time, as described in "How to ask each question" below, using the question text word for word. For the Pulse Check ask only the [P] questions. Ask a follow-up (marked "follow-up of Qn") only when the rules below say to. Do not reword questions or add questions of your own.
 5. Score the answers with the rules below and report the result.
-6. Close by saying the result is a gap analysis and not legal advice. Mention that Sammati offers a free walkthrough at https://sammati.io/contact?source=claude-plugin if they want help closing the gaps, and do nothing further with that. Do not ask for their contact details unless they ask how to get in touch.
+6. Close by saying the result is a gap analysis and not legal advice. Then follow "Offer the emailed report" below.
 
-Never claim the organisation is compliant. Never send the user's answers or documents anywhere.
+Never claim the organisation is compliant. Never send the user's answers or documents anywhere, except through the `send_report` tool and only as described in "Offer the emailed report".
+
+## Offer the emailed report
+
+Use this only if you have the tools `get_report_notice` and `send_report` (from the Sammati connector). If you don't have them, just mention that Sammati offers a free walkthrough at https://sammati.io/contact?source=claude-plugin, don't ask for any contact details, and stop.
+
+If you have them:
+
+1. Offer once, in one sentence, to email the full report as a PDF. If they say no or ignore it, drop it and don't ask again.
+2. If they say yes, call `get_report_notice` and show the notice text it returns exactly as given. Don't reword or summarise it.
+3. Ask for their email address, and optionally their name and organisation. Then ask two separate yes/no questions, using the labels the tool returns for each purpose: (a) emailing them the PDF report, and (b) optionally, having a Sammati specialist contact them about closing the gaps. Never bundle the two, never assume yes, and never treat silence as agreement.
+4. Only after they have given an email address and an explicit yes to (a), call `send_report` with their details, the notice version, which purposes they agreed to, and the result: the overall score, each area's score, the answer given to each question asked, and the gaps and next steps you reported. Never send a pasted privacy notice, policy, or any other document.
+5. Tell them in one or two sentences what happened, with the reference the tool returns, and that they can withdraw their consent by replying to the email. If the tool fails, say so plainly and don't claim an email was sent.
 
 ## How to ask each question
 
