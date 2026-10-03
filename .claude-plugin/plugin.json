@@ -1,7 +1,7 @@
 {
   "name": "sammati-dpdp",
   "displayName": "Sammati DPDP Readiness",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Check how ready your organisation is for India's DPDP Act. Answer a short assessment or paste your privacy notice, and get a score and a prioritised list of gaps.",
   "author": {
     "name": "Arborworld India Private Limited (Sammati)",
@@ -10,6 +10,18 @@
   "homepage": "https://sammati.io/assessment",
   "repository": "https://github.com/vinnzy/sammati-dpdp-plugin",
   "license": "MIT",
+  "keywords": [
+    "dpdp",
+    "dpdp act",
+    "india",
+    "data protection",
+    "privacy",
+    "consent",
+    "readiness assessment",
+    "gap analysis",
+    "privacy notice",
+    "data principal rights"
+  ],
   "icon": ".claude-plugin/icon.png",
   "documentationUrl": "https://sammati.io/claude",
   "supportUrl": "https://sammati.io/contact",
