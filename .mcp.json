@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sammati": {
+      "type": "http",
+      "url": "https://sammati.io/api/mcp"
+    }
+  }
+}
