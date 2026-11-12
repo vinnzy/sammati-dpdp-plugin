@@ -1,12 +1,31 @@
-# Sammati DPDP Readiness
+# Sammati: India DPDP Data Protection Compliance
 
-Check how ready your organisation is for India's Digital Personal Data Protection (DPDP) Act, 2023, from inside a conversation with Claude. It is the same assessment as the free self-check at [sammati.io/assessment](https://sammati.io/assessment).
+A compliance readiness assessment and gap analysis for India's Digital Personal Data Protection (DPDP) Act, 2023 and DPDP Rules, 2025, run from inside a conversation with Claude. It is the same assessment as the free self-check at [sammati.io/assessment](https://sammati.io/assessment).
+
+## What it does
+
+- **Compliance readiness assessment.** A 15-question Pulse Check (about 3 minutes) or the complete 62-question assessment (about 12 minutes).
+- **Privacy notice and consent review.** Paste your privacy notice, privacy policy or consent screen text. Claude reads it first, fills in the answers it supports, and asks only about what is left.
+- **Gap analysis.** A readiness score overall and by area, your biggest data protection, privacy and consent gaps, and a prioritised action list.
+
+It covers 15 areas of a Data Fiduciary's obligations: governance, data inventory, notice and consent, Data Principal rights, children's data, security safeguards, vendors and processors, personal data breach response, retention and erasure, cross-border transfers, privacy by design, training, Significant Data Fiduciary obligations, documentation and monitoring.
+
+## Who it is for
+
+- Startups, SaaS, fintech, healthcare and other companies that handle the personal data of people in India (Data Fiduciaries under the Act).
+- Data Protection Officers (DPOs), privacy, legal, compliance and security teams running a DPDP gap assessment.
+- Founders and product teams who want a first read on where they stand before bringing in counsel.
 
 ## Use it
 
-Ask Claude to run a DPDP readiness check. You can choose a short Pulse Check or the complete assessment. If you paste your privacy notice or consent screen text, Claude reads it first and fills in the answers it can, then asks only about what is left. You get a score, your biggest gaps, and a prioritised list of next steps.
+Ask Claude something like:
 
-The deadlines worth knowing: the Consent Manager framework opens on 13 November 2026, and full compliance is due on 13 May 2027.
+- "Run a DPDP readiness check for my company."
+- "Do a DPDP gap assessment for our fintech app."
+- "Review this privacy notice against the DPDP Act."
+- "How ready are we for India's data protection law?"
+
+The dates worth knowing: the Consent Manager framework date is 13 November 2026, and full compliance is due by 13 May 2027.
 
 ## Data
 
@@ -22,4 +41,4 @@ The result is a gap analysis to help you plan. It is not legal advice and not a 
 
 ## About
 
-Built by [Sammati](https://sammati.io), India's DPDP-native consent and privacy platform. Released under the MIT License.
+Built by [Sammati](https://sammati.io), a consent management and privacy compliance platform built for India's DPDP Act. Released under the MIT License.
