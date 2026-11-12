@@ -1,6 +1,6 @@
 ---
 name: dpdp-readiness
-description: Run a DPDP Act readiness assessment. Use when the user asks about DPDP compliance, reviewing a privacy notice or consent screen, consent gaps, or how ready their organisation is for India's DPDP Act.
+description: Run a compliance readiness assessment and gap analysis against India's Digital Personal Data Protection (DPDP) Act, 2023 and DPDP Rules, 2025. Use when the user asks about DPDP compliance, India data protection or privacy compliance, a DPDP gap assessment, reviewing a privacy notice or consent screen, consent gaps, Data Fiduciary obligations, or how ready their organisation is for the DPDP Act.
 ---
 
 Run the Sammati DPDP readiness assessment and give the user a score, their top gaps, and next steps. Everything you need is in this file. Never tell the user the assessment is missing, and never make up questions or scores.
